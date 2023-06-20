@@ -33,24 +33,17 @@ def getInfoArtists(pathSong, artistsCollection):
 
 def showStats(artistsCollection):
 	for i in artistsCollection.keys():
-		print(i)
-		print("Nr of albums:",len(artistsCollection[i].keys()))
-		for j in artistsCollection[i]:
-			print(artistsCollection[i][j])
-'''
-Future
-Nr of albums: 10
-{'genre': 'Hip-Hop/Rap', 'date': '2012', 'nrOfSongs': 16}
-{'genre': 'Hip Hop, Trap', 'date': '2015', 'nrOfSongs': 8}
-{'genre': 'Hip-Hop / Rap', 'date': '2016', 'nrOfSongs': 1}
-{'genre': 'Hip-Hop', 'date': '2017', 'nrOfSongs': 17}
-{'genre': 'Hip-Hop/Rap', 'date': None, 'nrOfSongs': 18}
-{'genre': 'Hip-Hop / Rap', 'date': '2020', 'nrOfSongs': 21}
-{'genre': 'Hip-Hop / Rap', 'date': '2016', 'nrOfSongs': 1}
-{'genre': 'Hip-Hop/Rap', 'date': '2022', 'nrOfSongs': 22}
-{'genre': 'Hip-Hop / Rap', 'date': '2019', 'nrOfSongs': 1}
-{'genre': 'Hip Hop, Trap', 'date': '2017', 'nrOfSongs': 17}
-'''
+		print(i, "Nr of albums:",len(artistsCollection[i].keys()))
+		
+		#for j in artistsCollection[i]:
+		#	print(artistsCollection[i][j])
+		'''
+			Charli XCX Nr of albums: 3
+			Young Thug Nr of albums: 2
+			Denzel Curry Nr of albums: 2
+			Green Day Nr of albums: 2
+		'''
+		
 
 
 def main(path):
@@ -73,7 +66,7 @@ def main(path):
 
 
 
-main("/Volumes/MEDIA/MUSIC/Music/Future/")
+main("/Volumes/MEDIA/MUSIC/Music/")
 
 
 
